@@ -1,10 +1,20 @@
-# Proxecto Docker con mounts e volume
+# Práctica: Arquitectura web con Docker
 
-Arquitectura web con frontend, backend e base de datos. Inclúe persistencia e montaxes de código en tempo real.
+Este proyecto demuestra una arquitectura web básica con:
+- Frontend: Servido por Nginx (HTML estático)
+- Backend: Aplicación Python (Flask)
+- Base de datos: PostgreSQL
 
-## Instrucciones de despliegue
-1. Clonar el repositorio: `git clone [URL]`
-2. Ejecutar: `docker-compose up --build`
-3. Acceder:
-   - Frontend: http://localhost:8080
-   - Backend: http://localhost:5000
+## Comandos principales
+
+- Iniciar todos los servicios: `docker-compose up --build`
+- Detener todos los servicios: `docker-compose down`
+- Acceder al frontend: http://localhost:8080
+- Acceder al backend: http://localhost:5000
+
+## Clonar el repo en el nuevo Ubuntu:
+- git clone https://github.com/GitAlberto18/practica-docker.git
+- cd practica-docker
+  
+## Ejecutar el despliegue con Docker Compose:
+- docker compose up -d
